@@ -15,11 +15,8 @@ Fetch, dissect, and convert VPN subscriptions into share keys, Sing-box JSON, an
 * **3 формата вывода**: ключи (`vless://`, `vmess://`, `trojan://`, `ss://`, `hysteria2://`), готовый конфиг для Sing-box (с селектором и `urltest`) или форматированный Xray JSON.
 * **Подмена устройства**: эмуляция платформы (`iOS`, `Android`, `Windows`, `macOS`, `Linux`), версии ОС, модели и `User-Agent` (Happ, INCY, Sing-box, v2RayTun, Mihomo, Karing).
 * **Поддержка HWID**: автоматическая генерация стабильного аппаратного идентификатора (`x-hwid`) по спецификации панелей или ввод собственного.
-* **Очистка от дублей**: фильтрация технических серверов и сводных профилей «Авто» с сохранением оригинальных названий узлов.
-* **Проверка сети при старте**: экспресс-тест подключения к интернету перед переходом в основное меню.
-* **Работа с буфером обмена**: автоматическое копирование результата для быстрой вставки (`Ctrl+V` / `Cmd+V`) в клиент.
-* **Безопасное сохранение**: автоматическая запись файлов в текущую папку или каталог «Загрузки» без ошибок доступа.
-* **Без сторонних зависимостей**: запуск на Windows в 1 клик через стандартную командную строку, на macOS и Linux — через системный Python.
+* **Очистка от дублей**: фильтрация технических серверов и сводных профилей «Авто» с сохранением оригинальных названий нод.
+
 
 ### Форматы вывода
 
@@ -53,10 +50,8 @@ chmod +x VPN_Parser_Mac_Linux.sh
 * **Device emulation**: customizable platform (`iOS`, `Android`, `Windows`, `macOS`, `Linux`), OS version, device model, and `User-Agent` (Happ, INCY, Sing-box, v2RayTun, Mihomo, Karing).
 * **HWID support**: automated generation of consistent hardware identifiers (`x-hwid`) matching panel requirements, or custom entry.
 * **Node deduplication**: automated filtering of duplicated proxy entries and auto-balancer nodes while preserving original server remarks.
-* **Startup network check**: quick verification of internet connectivity before loading the main menu.
-* **Clipboard integration**: automatically copies generated output for instant pasting (`Ctrl+V` / `Cmd+V`) into your client.
-* **Safe saving**: saves output files to the script folder or `Downloads` without permission issues.
-* **Zero dependencies**: runs on Windows via native command prompt out of the box, and on macOS/Linux using standard system Python.
+
+
 
 ### Output formats
 
